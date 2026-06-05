@@ -1,1 +1,31 @@
-
+{
+    "audit_metadata": {
+        "report_id": "CF-AUDIT-2026-0001",
+        "generated_at": "2026-06-05T14:55:00Z",
+        "compliance_standard": "SAT-Mexico-Ready-Format",
+        "system_node": "CommerceFlow-AI-Agent-01"
+    },
+    "transaction_summary": {
+        "invoice_ref": "CF-10294-Q",
+        "status": "SETTLED",
+        "blockchain_audit_hash": "0x7f2a9e0f3d5b2c8a",
+        "settlement_rail": "USDC_Mainnet"
+    },
+    "business_data": {
+        "customer": "Cementos y Construcciones LATAM",
+        "items": [
+            {
+                "description": "Cement (50kg)",
+                "quantity": 50,
+                "unit_price": 45.00
+            }
+        ],
+        "total_amount": 2250.00,
+        "currency": "USDC"
+    },
+    "verification": {
+        "whatsapp_thread_id": "W-8892-X",
+        "verification_status": "VERIFIED",
+        "smart_contract_address": "0x1234567890abcdef1234567890abcdef12345678"
+    }
+}
