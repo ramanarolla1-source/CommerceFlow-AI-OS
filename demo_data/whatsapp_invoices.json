@@ -1,1 +1,38 @@
-
+[
+    {
+        "raw_message": "Hola equipo, necesito 50 unidades de cemento (50kg) y una caja de clavos de acero para mi proyecto en la colonia Roma. ¿Cuánto sería el total?",
+        "intent": "PURCHASE_REQUEST",
+        "entities": {
+            "items": [
+                {
+                    "item": "Cement (50kg)",
+                    "quantity": 50,
+                    "unit_price_usd": 45.00
+                },
+                {
+                    "item": "Steel Nails (Box)",
+                    "quantity": 1,
+                    "unit_price_usd": 12.50
+                }
+            ],
+            "delivery_fee_usd": 5.00,
+            "total_calculated": 2267.50
+        },
+        "status": "READY_FOR_QUOTE"
+    },
+    {
+        "raw_message": "Recibido, gracias. Procedan con el envío de 100 bolsas de yeso urgente. Mañana depósito el pago vía stablecoin. Saludos.",
+        "intent": "ORDER_CONFIRMATION",
+        "entities": {
+            "items": [
+                {
+                    "item": "Gypsum (Yeso)",
+                    "quantity": 100
+                }
+            ],
+            "urgency": "HIGH",
+            "payment_method": "STABLECOIN"
+        },
+        "status": "PENDING_SETTLEMENT"
+    }
+]
